@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="./CSS/main.css">
+        <title>FetchRewards Take Home Project</title>
+    </head>
+    <body>
+        <header class="relative bg-bg-primary bg-blend-screen bg-center bg-no-repeat bg-cover">
+            <img src="./Images/FetchRewards.png" alt="">
+        </header>     
+        <section class="pt-[100px] bg-bg-secondary font-primary w-full">
+            <div class="lg:flex flex-row h-full">
+                <div class="basis-1/2 px-6 relative flex flex-col">
+                    <div class="max-w-[75%] mx-auto text-center lg:text-left font-secondary">
+                        <h2 class="font-light text-content-primary text-[45px] leading-[50px] lg:text-[55px] md:leading-[55px] mb-8">
+                            Partner with Fetch Rewards
+                        </h2>
+                        <h3 id="success" class="font-thin text-content-primary leading-[25px] md:text-[24px] md:leading-[30px] max-w-[800px] mx-auto">
+                            Discover all the ways Fetch can help you stand out and move ahead. Create a user account now!
+                        </h3>
+                    </div>
+                </div>
+                <div class="basis-1/2 flex flex-col box-border justify-center">
+                    <form id="createUser" action="https://frontend-take-home.fetchrewards.com/form" method="post" class="max-w-[700px] sm:basis-full ">
+                        <div class="row">
+                            <div class="col-15">
+                                <label for="user_fullname" class="required">Full Name </label>
+                            </div>
+                            <div class="col-85">
+                                <span></span><input type="text" name="username" id="user_fullname" minlength="3" maxlength="30" required /></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-15">
+                                <label for="user_email" class="required">E-mail </label>
+                            </div>
+                            <div class="col-85">
+                                <input type="email" name="useremail" id="user_email" minlength="7" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-15">
+                                <label for="user_password" class="required">Password </label>
+                            </div>
+                            <div class="col-85">
+                                <input type="password" name="userpassword" id="user_password" required />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-15">
+                                <label for="user_occupation" class="required">Occupation </label>
+                            </div>
+                            <div class="col-85">
+                                <select name="occupations" id="user_occupation" required >
+                                    <option value=""> -- Select -- </option>
+                                </select> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-15">
+                                <label for="user_state" class="required">State </label>
+                            </div>
+                            <div class="col-85">
+                                <select name="states" id="user_state" required >
+                                    <option value=""> -- Select -- </option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" id="btnsubmit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
+
+<!-- https://github.com/fmullinax/FetchRewardsProject -->
