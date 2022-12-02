@@ -76,7 +76,7 @@ Here is the final product that I came up with:
 <br><br>
 
 ## Room for Improvement
-Are there improvements that could be made with how I accomplished this? Of course there is, and I am looking forward to getting critiqued on how I completed this task and continuing to learn so that I can get better. One area I want to get better at and continue to learn more about is designing a more responsive page.
+Are there improvements that could be made with how I accomplished this? Of course there is, and I am looking forward to getting critiqued so that I can continue to learn and improve my skills. One area I want to get better at and continue to learn more about is designing a more responsive page.
 <br><br>
 
 ## Acknowledgements
