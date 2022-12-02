@@ -64,7 +64,7 @@ After I got the form data captured in a JSON object and formatted correctly, I w
 After that it was on to styling the site. I thought about several ways I wanted to style the page, but after doing a little research I decided to go to FetchRewards site and look around and see if they had a form on there I could review and get an idea of what they may be looking for. I navigated to their contact us page and found a form! I liked how clean their page looked and the color scheme, so I decided to try and mimick it. Here's how the 'contact us' page looked at that time:
 
 <p align="center">
-    <img alt="ContactUs" title="FetchContactUs" src="./Images/fetchforbusinesscontactus.png" width="850">
+    <img alt="ContactUs" title="FetchContactUs" src="./Images/FetchforBusinessContactUs.png" width="850">
 </p>
 
 I also noticed how they colored the focus on the input fields and incorporated that in to mine. I used their color for my submit button but decided to keep mine to the right of the form and with a more traditional style and size than they had. 
