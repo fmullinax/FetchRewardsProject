@@ -67,8 +67,8 @@ After that it was on to styling the site. I thought about several ways I wanted 
     <img alt="ContactUs" title="FetchContactUs" src="./Images/FetchforBusinessContactUs.png" width="850">
 </p>
 
-I also noticed how they colored the focus on the input fields and incorporated that in to mine. I used their color for my submit button but decided to keep mine to the right of the form and with a more traditional style and size than they had. 
-
+I also noticed how they colored the focus on the input fields and incorporated that in to mine. I used their color for my submit button but decided to keep mine to the right of the form and with a more traditional style and size than they had. I ended it by popping an alert message if a status code of 201 was returned after submitting the form. I know alerts are mainly used with testing code, but it was something to alert the user if they submitted their information correctly and then I reset the form back after hitting ok.
+<br><br>
 Here is the final product that I came up with:
 <p align="center">
     <img alt="MySite" title="FetchTakeHomeCompletedExercise" src="./Images/MyCompletedProject.png" width="850">
